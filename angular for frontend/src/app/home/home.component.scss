@@ -1,0 +1,166 @@
+#div1{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #ff7a00;
+}
+.text1_3D{
+    margin: 0;
+    font-family: "Arial Black";
+    font-size: 100px;
+    color: #fff;
+    text-shadow: 1px 1px #dedede, 
+        -2px 2px #dedede,
+        -3px 3px #dedede,
+        -4px 4px #dedede,
+        -5px 5px #dedede,
+        -6px 6px #dedede,
+        -7px 7px #dedede,
+        -8px 8px #dedede,
+        -9px 9px #dedede,
+        -10px 10px #dedede,
+        -12px 12px 25px rgba(0,0,0,0.5);
+}
+
+// 3D style 2
+
+/*
+  --color-primary: #5192ED;
+  --color-secondary: #69A1F0;
+  --color-tertiary: #7EAEF2;
+  --color-quaternary: #90BAF5;
+  --color-quinary: #A2C4F5;
+  */
+
+#div2 {
+  min-height: 100vh;
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #eff8e2;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+    // used colors
+  /*
+  --color-primary: #f6aca2;
+  --color-secondary: #f49b90;
+  --color-tertiary: #f28b7d;
+  --color-quaternary: #f07a6a;
+  --color-quinary: #ee6352;
+  */
+
+.text_shadows {
+  text-shadow: 3px 3px 0 #f49b90, 6px 6px 0 #f28b7d,
+    9px 9px #f07a6a, 12px 12px 0 #ee6352;
+  font-family: bungee, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: calc(2rem + 5vw);
+  text-align: center;
+  margin: 0;
+  color: #f6aca2;
+  //color: transparent;
+  //background-color: white;
+  //background-clip: text;
+  animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+  letter-spacing: 0.4rem;
+}
+
+@keyframes shadows {
+  0% {
+    text-shadow: none;
+  }
+  10% {
+    text-shadow: 3px 3px 0 #f49b90;
+  }
+  20% {
+    text-shadow: 3px 3px 0 #f49b90,
+      6px 6px 0 #f28b7d;
+  }
+  30% {
+    text-shadow: 3px 3px 0 #f49b90,
+      6px 6px 0 #f28b7d, 9px 9px #f07a6a;
+  }
+  40% {
+    text-shadow: 3px 3px 0 #f49b90,
+      6px 6px 0 #f28b7d, 9px 9px #f07a6a,
+      12px 12px 0 #ee6352;
+  }
+  50% {
+    text-shadow: 3px 3px 0 #f49b90,
+      6px 6px 0 #f28b7d, 9px 9px #f07a6a,
+      12px 12px 0 #ee6352;
+  }
+  60% {
+    text-shadow: 3px 3px 0 #f49b90,
+      6px 6px 0 #f28b7d, 9px 9px #f07a6a,
+      12px 12px 0 #ee6352;
+  }
+  70% {
+    text-shadow: 3px 3px 0 #f49b90,
+      6px 6px 0 #f28b7d, 9px 9px #f07a6a;
+  }
+  80% {
+    text-shadow: 3px 3px 0 #f49b90,
+      6px 6px 0 #f28b7d;
+  }
+  90% {
+    text-shadow: 3px 3px 0 #f49b90;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  40% {
+    transform: translate(-12px, -12px);
+  }
+  50% {
+    transform: translate(-12px, -12px);
+  }
+  60% {
+    transform: translate(-12px, -12px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+// style 3
+#div3 {
+    background-color: #c4c4c4;  
+}
+.text3_3D {
+    transform: translate(0%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 12em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
